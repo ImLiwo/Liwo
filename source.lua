@@ -6332,10 +6332,6 @@ LPH_NO_VIRTUALIZE(function() -- Make UI
         writefile(folderName .. "/cache/votekick data/" .. fileName, userName)
     end)
 
-    antivotekick:AddButton("Copy YouTube Tutorial Link", function()
-        setclipboard("https://youtu.be/dvyiz8iVe5g")
-    end)
-
     chatspam:AddToggle("Enabled", false, getCallback("Chat Spam%%Enabled")):AddKeyBind(nil, "Key Bind")
     chatspam:AddDropdown("Spam List", "default.txt", chatListsFiles, getCallback("Chat Spam%%Spam List"))
     chatspam:AddSlider("Spam Delay", 2.51, 2.51, 5, 0.01, " Seconds", getCallback("Chat Spam%%Spam Delay"))
@@ -6364,7 +6360,7 @@ LPH_NO_VIRTUALIZE(function() -- Make UI
     cheatSettings:AddToggle("Show Keybind List", false, getCallback("Cheat Settings%%Show Keybind List"))
     cheatSettings:AddToggle("Show Key Name", false, getCallback("Cheat Settings%%Show Key Name"))
     cheatSettings:AddButton("Copy Discord Invite", function()
-        setclipboard("https://discord.gg/tUEJZYvF9d") -- pro
+        setclipboard("https://discord.gg/VvhhbuxAUf") -- pro
     end)
     cheatSettings:AddButton("Unload", function()
         unloadMain()
