@@ -1,12 +1,38 @@
---
+--[[
+
+    ~ New Discord Server ~
+
+    [ https://discord.gg/tUEJZYvF9d ]
+
+    ~ Index ~
+
+    [ Drawing Library ] - [ Line 47 ]
+    [ UI Library ] - [ Line 1053 ]
+    [ Cham Library ] - [ Line 2646 ]
+    [ Main Cheat ] - [ Line 2702 ]
+    [ Make UI ] - [ Line 5633 ]
+
+    ~ Credits ~
+
+    [ iRay ] - [ @896378803868295178 ] | Lead developer
+    [ Mickey ] - [ @953720095811719208 ] | Developed perfect trajectory function and ESP library
+    [ Redpoint ] - [ @418013390024474624 ] | Contributed to triangles in the custom drawing api
+
+    ~ Special Thanks ~
+
+    [ BBot ] - [ Inspiration to make such a nice UI and high quality/quantity feature list ]
+    [ Legacy ] - [ Best and only beta tester ]
+    
+]]
+
 function LPH_NO_VIRTUALIZE(fuction) -- unnecessary now
     return fuction
 end
 LPH_JIT_MAX = LPH_NO_VIRTUALIZE
 
 local devMode = true
-local defaultUIName = "LiwoHub"
-local folderName = "Phantom Forces"
+local defaultUIName = "Wapus.Shop" -- $$$
+local folderName = "Phantom Forces Cheat"
 local connectionList = {}
 local callbackList = {}
 local playerStatus = {}
@@ -17,7 +43,7 @@ local unloadMain
 local wapus
 
 LPH_NO_VIRTUALIZE(function()
-workspace:FindFirstChild("Loser LOL")
+workspace:FindFirstChild("nigga stop deobfuscating my script you black monkey nigger - iray") -- theres this bitch nigga named isse (@723741691583922209)
 do -- Drawing Library 
     local drawing = {}
     local cache = {
